@@ -5,5 +5,13 @@ namespace Ucu.Poo.Restaurant;
 /// </summary>
 public class Dish
 {
+    private string name;
+
+    public string Name
+    {
+        get { return name;}
+        
     
+    
+
 }

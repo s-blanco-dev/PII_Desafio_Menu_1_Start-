@@ -10,16 +10,16 @@ public class Waiter
     private ArrayList assignedTables = new ArrayList();
     
     // Nombre del mozo
-    private string name;
     public string Name
     {
-        get { return name; }
+        get;
+	set;
     }
 
     // Método constructor
     public Waiter(string name)
     {
-        this.name = name;
+        this.Name = name;
     }
 
     // Agrega un objeto mesa al Array assignedTable 
